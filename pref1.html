@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form de Registro com validações em JS</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <img src="./img/pontal.png" alt="">
+  <div id="main-container">
+    <h1>Cadastre o computador</h1>
+    <form action="pref1.php" method="POST">
+      <div class="full-box">
+        <label for="name">Local</label>
+        <input type="text" name="local" id="local" placeholder="Digite o local" data-min-length="2">
+      </div>
+      <div class="half-box spacing">
+          <label for="name">Patrimonio</label>
+          <input type="text" name="patrimonio" id="local" placeholder="Digite o patrimonio">
+      </div>
+      <div class="half-box">
+          <label for="name">Problema</label>
+          <input type="text" name="problema" id="problema" placeholder="Digite o problema" >
+      </div>
+      <div class="half-box spacing">
+        <label for="name">Solução</label>
+        <input type="text" name="solucao" id="solucao" placeholder="Digite a solução">
+      </div>
+      <div class="half-box">
+        <label for="name">Tecnico</label>
+        <input type="text" name="tecnico" id="tecnico" placeholder="Digite o nome do tecnico">
+      </div>
+      <div>
+        <!--<input type="checkbox" name="agreement" id="agreement">
+        <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+      </div>-->
+      <div class="botao">
+        <input id="btn-submit" type="submit" value="Registrar">
+      </div>
+    </form>
+  </div>
+  <p class="error-validation template"></p>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

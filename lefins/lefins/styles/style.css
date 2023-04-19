@@ -184,3 +184,27 @@ body {
 
 <div class="contato insta">/*
 }
+
+/* geral */
+
+#titulo-form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 25px;
+  }
+
+#titulo-form h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+  }
+
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
