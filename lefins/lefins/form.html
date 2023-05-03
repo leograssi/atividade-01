@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="/cadastro" method="post" class="formulario">
+        <h1 class="titulo-form">FORM</h1>
+        <div class="campos">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div class="campos">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu email">
+        </div>
+        <div class="campos">
+            <label for="telefone">Telefone</label>
+            <input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone">
+        </div>
+        <div class="campos">
+            <label for="data">Data de nascimento</label>
+            <input type="date" name="data" id="data" placeholder="Digite sua data de nascimento">
+        </div>
+        <div class="final">
+            <input type="checkbox" name="agreement" id="agreement">
+            <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+        </div>
+        <div class="botao">
+            <input id="btn-submit" type="submit" value="Registrar">
+        </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
