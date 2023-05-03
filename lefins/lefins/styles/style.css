@@ -187,28 +187,3 @@ body {
 
 <<<<<<< HEAD
 */ 
-=======
-/* geral */
-
-#titulo-form {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #FFF;
-    border-radius: 10px;
-    padding: 25px;
-  }
-
-#titulo-form h1 {
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 1.6rem;
-  }
-
-#form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
->>>>>>> 64d4b7515ec1d6cbbc0aa7bde2f02a2276332661
