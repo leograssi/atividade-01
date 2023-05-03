@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="logo">
+        <h1>Formulario</h1>
+
+    </main>
+
+    <section id="dadospessoais" class="formulario">
+        <form action="/dadospessoais" method="post" class="form">
+            <fieldset class="dados">
+                <legend>Dados Pessoais</legend>
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu nome" />
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Informe seu email" />
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone" />
+                </div>
+
+                <div>
+                    <label for="dataNascimento">Data Nascimento:</label>
+                    <input type="date" name="dataNascimento" id="dataNascimento" />
+                </div>
+            </fieldset>
+
+            <fieldset class="gosto">
+                <legend>Gostos</legend>
+
+                <div class="especializao">
+                    <h4 class="formgosto">Qual a sua preferencia para assistir?</h4>
+
+                    <div>
+                        <input type="radio" name="espDev" id="espDevFront" value="front" />
+                        <label for="espDevFront">Série</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="espDev" id="espDevBack" value="back" />
+                        <label for="espDevBack">Filme</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="espDev" id="espDevFull" value="full" />
+                        <label for="espDevFull">Documentario</label>
+                    </div>
+                </div>
+
+
+                <div class="genero">
+                    <h4 class="form__subtitulos">
+                        Qual a sua preferencia de genero?
+                    </h4>
+
+                    <div>
+                        <input type="checkbox" name="generos" id="genero" value="genero" />
+                        <label for="genero">Comédia</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="generos" id="genero" value="genero" />
+                        <label for="genero">Terror</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="generos" id="genero" value="genero" />
+                        <label for="genero">Ação</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="generos" id="genero" value="genero" />
+                        <label for="genero">Drama</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="generos" id="genero" value="genero" />
+                        <label for="genero">Anime</label>
+                    </div>
+                </div>
+            </fieldset>
+
+
+            <div class="sobre">
+                <label for="sobredev">Descreva seus gostos:</label>
+                <textarea name="sobredev" id="sobredev"
+                    placeholder="Fale um pouco sobre seus gosto na hora de assistir aquele filme ou série."></textarea>
+            </div>
+
+            <div class="formbotao">
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
